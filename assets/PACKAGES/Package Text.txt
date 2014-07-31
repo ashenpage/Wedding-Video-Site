@@ -1,0 +1,124 @@
+<section id="packages">
+
+			<header class="text-center">
+				<h1>Our Packages</h1>
+			</header>
+
+			<div class="divider"><!-- lines divider --></div>
+
+			<div class="inner-cover" style="background-image:url('assets/images/preview/slider/3.jpg')">
+
+				<!--
+					Optional - raster or overlay backgrounds, for brighten images.
+					<span class="raster"></span>
+
+					Default overlay: black, opacity 0.5
+					Gray overlay: #212121 , opacity 0.9
+					Remove 'gray' class for default overlay
+
+					<span class="overlay gray"></span>
+				-->
+				<span class="overlay gray"></span>
+
+
+				<div class="container text-center">
+
+					<ul class="services animate_from_bottom">
+						<li><!-- service 1 -->
+							<a href="#service-1" class="service yellow scrollTo">
+								<i class="icon-globe"></i>
+								<h3>SILVER</h3>
+							</a>
+						</li>
+
+						<li><!-- service 2 -->
+							<a href="#service-2" class="service orange scrollTo">
+								<i class="icon-eye"></i>
+								<h3>GOLD</h3>
+							</a>
+						</li>
+
+						<li><!-- service 3 -->
+							<a href="#service-3" class="service mauve scrollTo">
+								<i class="fa fa-code"></i>
+								<h3>PLATINUM</h3>
+							</a>
+						</li>
+
+									<div class="services-nav">
+						<a id="service-prev" href="#"><i class="fa fa-chevron-left"></i></a>
+						<a id="service-next" href="#"><i class="fa fa-chevron-right"></i></a>
+					</div>
+
+				</div>
+			</div>
+
+
+			<!--
+				BOOTSTRAP GRID USED
+				http://getbootstrap.com/css/#grid
+			-->
+
+			<!-- service 1 -->
+			<article id="service-1" class="container service-desc animate_fade_in">
+				<div class="row">
+					<div class="col-xs-12 col-md-3 text-left">
+						<h3><i class="yellow fa fa-stop"></i> Silver</h3>
+					</div>
+					<div class="col-xs-6 col-md-3 text-left">
+						<ul>
+							<li>ONE ONLINE LINK</li>
+							<li>Full Length Feature</li>
+							<li>£750</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-md-6 text-left">
+						<p>Best suited for those interested in a simple documentation of their special day, which is a full length video of the day.</p>
+					</div>
+				</div>
+			</article>
+
+			<!-- service 2 -->
+						<article id="service-1" class="container service-desc animate_fade_in">
+				<div class="row">
+					<div class="col-xs-12 col-md-3 text-left">
+						<h3><i class="orange fa fa-stop"></i>GOLD</h3>
+					</div>
+					<div class="col-xs-6 col-md-3 text-left">
+						<ul>
+							<li>ONE ONLINE LINK</li>
+							<li>Highlight Video</li>
+							<li>£650</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-md-6 text-left">
+						<p>Our most popular package is tailored for those interested in capturing their wedding with the main purpose of sharing with friends and family. The footage is edited into a 3-7 minute artistic piece that tells a highlighted story of your wedding through professional editing mixed with music and optional voiceover.</p>
+					</div>
+				</div>
+			</article>
+
+			<!-- service 3 -->
+						<article id="service-1" class="container service-desc animate_fade_in">
+				<div class="row">
+					<div class="col-xs-12 col-md-3 text-left">
+						<h3><i class="mauve fa fa-stop"></i>PLATINUM</h3>
+					</div>
+					<div class="col-xs-6 col-md-3 text-left">
+						<ul>
+							<li>TWO ONLINE LINK</li>
+							<li>Highlight Video & Full Length Feature</li>
+							<li>£1500</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-md-6 text-left">
+						<p>Our PLATINUM package is made for those wanting to capture their wedding in the form of a full length feature (documentary style). Weddings speed by so the bride and groom don't get to see the little things.</p>
+
+<p>The 20-60 minute feature edit is a basic edit capture from an objective documentary eye ideal for those wanting to relive the entire day making it able for friends and family members who were unable to attend to feel as if they were they, and for a real reflection of the special day. In our PLATINUM package we includes both highlight and feature length edits.</p>
+					</div>
+				</div>
+			</article>
+
+			<!-- service 4 -->
+
+
+		</section>
