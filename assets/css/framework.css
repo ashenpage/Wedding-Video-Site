@@ -295,12 +295,11 @@ section:hover > .raster.hover {
 	border-radius: 0;
 }
 .btn {
-	font-family:'Open Sans';
+	font-family:'Open Sans', sans-serif;
 	font-size:16px;
-	font-weight:600;
+	font-weight:400;
 	line-height:32px;
 	text-transform:uppercase;
-	font-family:'open Sans';
 	border:0;
 }
 .btn-default {

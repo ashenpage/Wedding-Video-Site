@@ -21,6 +21,8 @@
  ** ************************************* **/
 
 
+/**** Red colour #E96055 **/
+
 /** 01. Globals
  **************************************************************** **/
 html, body {
@@ -184,6 +186,10 @@ section .btn {
 	}
 
 
+.youtube:hover {
+	background: #ff0000;
+}
+
 /* input box - example: newsletter subscribe */
 .input-group.bordered {
 	-moz-border-radius:0;
@@ -282,7 +288,8 @@ section .btn {
 	}
 	#header .navbar-inverse ul.nav li.active a,
 	#header .navbar-inverse ul.nav a:hover {
-		color:#ABA798;
+		color:#000;
+		background: #E96055;
 	}
 	#header .navbar-collapse {
 		padding:0;
@@ -920,7 +927,7 @@ div.price-table {
 	}
 	ul.bstrap-tabs li.active a,
 	ul.bstrap-tabs li.active a:hover {
-		border-top:#647282 1px solid;
+		border-top:#E96055 1px solid;
 		background:#EEEEEE;
 	}
 	ul.bstrap-tabs li a i {
@@ -933,7 +940,7 @@ div.price-table {
 	}
 	ul.bstrap-tabs li.active a,
 	ul.bstrap-tabs li.active a i {
-		color:#647282;
+		color:#E96055;
 	}
 	div.bstrap-tabs h2 {
 		font-size:24px;
@@ -1018,10 +1025,10 @@ footer a.toTop {
 	text-align:center;
 }
 #portfolio .isotope-item .caption h3 {
-	font-family:'Open Sans';
-	font-size:14px;
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
 	line-height:14px;
-	font-weight:700;
+	font-weight:300;
 }
 #portfolio .isotope-item .caption p {
 	font-size:12px;
