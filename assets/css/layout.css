@@ -126,12 +126,29 @@ section {
 	section.arrow-down {
 		background:#ffffff url('../images/down_white.png') no-repeat top center
 	}
+	section.arrow-down-transparent {
+		background:#ffffff url('../images/down_white_transparent.png') no-repeat top center
+	}
 
 section.alternate {
 	background:#F6F6F6;
 }
 section.alternate.arrow-down {
 	background:#F6F6F6 url('../images/down_alternate.png') no-repeat top center
+}
+
+section.transparent {
+	background: transparent;
+
+}
+
+section.transparent h1, section.transparent header {
+		color: #ffffff;
+}
+
+
+section.transparent.arrow-down {
+	background:transparent url('../images/down_alternate.png') no-repeat top center
 }
 
 
@@ -480,7 +497,7 @@ section .btn {
 #video-volume {
 	bottom: 85px;
 	left: 50%;
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 -2px;
 	position: absolute;
 	z-index: 10;
 	width: 30px;
@@ -494,6 +511,9 @@ section .btn {
 	cursor: pointer;
 }
 
+#video-volume i {
+	margin-top:4px;
+}
 
 /** 04. Content
  **************************************************************** **/
@@ -1376,4 +1396,22 @@ a.service:hover i {
 		padding-right:15px !important;
 	}
 
+}
+
+.bg-intro {
+
+    background-image: url('../images/static-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.bg-hide {
+
+	background-color: #fff; 
 }
