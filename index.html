@@ -63,7 +63,7 @@
 			<a href="#" id="video-volume"><i class="fa fa-volume-down"></i></a>
 
 			<!-- Video Background - replace videoURL with your youtube video URL -->
-			<a id="YTPlayer" class="player" data-property="{videoURL:':http://www.youtube.com/watch?v=BpEicXyXA7U',containment:'body',autoPlay:true, mute:true, startAt:4, opacity:1}">youtube</a>
+			<a id="YTPlayer" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=BpEicXyXA7U&feature=player_embedded',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">youtube</a>
 			<!--/Video Background -->
 
 			<span class="raster"><!-- video raster --></span>
@@ -232,8 +232,8 @@
                 <ul class="nav nav-tabs bstrap-tabs isotope-filter" data-sort-id="isotope-list"
                     data-option-key="filter">
                     <li data-option-value="*" class="active"><a href="#">Highlights</a></li>
-                    <li data-option-value=".image"><a href="#">Indoor</a></li>
-                    <li data-option-value=".image"><a href="#">Outdoor</a></li>
+                    <li data-option-value=".indoor"><a href="#">Indoor</a></li>
+                    <li data-option-value=".outdoor"><a href="#">Outdoor</a></li>
                 </ul>
             </div>
             <!-- /PORTFOLIO FILTER -->
@@ -243,7 +243,7 @@
 
                 <ul class="sort-destination isotope" data-sort-id="isotope-list">
 
-                    <li class="isotope-item col-sm-6 col-md-4 video"><!-- item -->
+                    <li class="isotope-item col-sm-6 col-md-4 video indoor"><!-- item -->
                         <a class="popup-video" href="//www.youtube.com/watch?v=1wj9TZJrw9k">
                             <img src="assets/images/S+A.png" class="img-responsive"
                                  data-src="holder.js/sim and amanda/#676767:#555555/auto/" alt="img"/>
@@ -258,7 +258,7 @@
                         </a>
                     </li>
 
-                    <li class="isotope-item col-sm-6 col-md-4 video"><!-- item -->
+                    <li class="isotope-item col-sm-6 col-md-4 video indoor"><!-- item -->
                         <a class="popup-video" href="//www.youtube.com/watch?v=kh29_SERH0Y?rel=0">
                             <img src="assets/images/P+J.png" class="img-responsive"
                                  data-src="holder.js/peter and judith/#676767:#555555/auto/" alt="img"/>
@@ -273,7 +273,7 @@
                         </a>
                     </li>
 
-                    <li class="isotope-item col-sm-6 col-md-4 video"><!-- item -->
+                    <li class="isotope-item col-sm-6 col-md-4 video outdoor"><!-- item -->
                         <a class="popup-video" href="//vimeo.com/23630702">
                             <img src="assets/images/N+H.png" class="img-responsive"
                                  data-src="holder.js/nava and henry/#676767:#555555/auto/" alt="img"/>
