@@ -41,9 +41,9 @@
 
 
     <!-- ICONS -->
-    <link rel="shortcut icon" href="assets/images/logo/Bearethics-white.png" type="image/x-icon"/>
-    <link rel="icon" href="assets/images/logo/Bearethics-white.png" type="image/x-icon"/>
-    <link rel="shortcut icon" href="assets/images/logo/Bearethics-white.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="black.ico" type="image/x-icon"/>
+    <link rel="icon" href="black.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="black.ico" type="image/x-icon"/>
 
     <!-- mobile settings -->
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"/>
@@ -63,7 +63,7 @@
 			<a href="#" id="video-volume"><i class="fa fa-volume-down"></i></a>
 
 			<!-- Video Background - replace videoURL with your youtube video URL -->
-			<a id="YTPlayer" class="player" data-property="{videoURL:':http://www.youtube.com/watch?v=BpEicXyXA7U&html5=1',containment:'body',autoPlay:true, mute:true, startAt:4, opacity:1}">youtube</a>
+			<a id="YTPlayer" class="player" data-property="{videoURL:':http://www.youtube.com/watch?v=BpEicXyXA7U',containment:'body',autoPlay:true, mute:true, startAt:4, opacity:1}">youtube</a>
 			<!--/Video Background -->
 
 			<span class="raster"><!-- video raster --></span>
@@ -338,7 +338,10 @@ Amanda Walderman - <small>Dance Teacher</small>
                     <li>HIGHLIGHT VIDEO</li>
                     <li>All Day Coverage</li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-sm">MORE INFORMATION</a>
+                <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".silver-package-more">MORE INFORMATION</a>
+               
+
+
             </div>
 
             <div class="col-md-4 price-table popular">
@@ -354,7 +357,7 @@ Amanda Walderman - <small>Dance Teacher</small>
                     <li>FULL LENGTH FEATURE</li>
                     <li>All Day Coverage</li>
                 </ul>
-                <a href="#" class="btn btn-default btn-sm">MORE INFORMATION</a>
+                <a href="#" class="btn btn-default btn-sm" data-toggle="modal" data-target=".gold-package-more">MORE INFORMATION</a>
             </div>
 
             <div class="col-md-4 price-table">
@@ -370,14 +373,66 @@ Amanda Walderman - <small>Dance Teacher</small>
                     <li>FULL FEATURE & HIGHLIGHT VIDEO</li>
                     <li>All Day Coverage</li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-sm">MORE INFORMATION</a>
+                <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".platinum-package-more">MORE INFORMATION</a>
             </div>
 
         </div>
     </div>
 </section>
-<!-- PRICE TABLE -->
+<!-- PACKAGE MODALS -->
+<div class="modal fade silver-package-more" tabindex="-1" role="dialog" aria-labelledby="silver-package-more" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+  
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Silver</h4>
+      </div>
+      <div class="modal-body">
+        <p>Best suited for those interested in a simple documentation of their special day, which is a full length video of the day.</p>
+      </div>
 
+    </div>
+  </div>
+</div>
+
+
+
+<!-- GOLD -->
+<div class="modal fade gold-package-more" tabindex="-1" role="dialog" aria-labelledby="gold-package-more" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+  
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Gold</h4>
+      </div>
+      <div class="modal-body">
+        <p>Our most popular package is tailored for those interested in capturing their wedding with the main purpose of sharing with friends and family. The footage is edited into a 3-7 minute artistic piece that tells a highlighted story of your wedding through professional editing mixed with music and optional voiceover.</p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- PLATINUM -->
+<div class="modal fade platinum-package-more" tabindex="-1" role="dialog" aria-labelledby="platinum-package-more" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+  
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Platinum</h4>
+      </div>
+      <div class="modal-body">
+       <p>Our PLATINUM package is made for those wanting to capture their wedding in the form of a full length feature (documentary style). Weddings speed by so the bride and groom don't get to see the little things.</p>
+<p>The 20-60 minute feature edit is a basic edit capture from an objective documentary eye ideal for those wanting to relive the entire day making it able for friends and family members who were unable to attend to feel as if they were they, and for a real reflection of the special day. In our PLATINUM package we includes both highlight and feature length edits.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <!-- ABOUT -->
 <section id="about" class="alternate arrow-down">

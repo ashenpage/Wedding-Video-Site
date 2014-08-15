@@ -1415,3 +1415,5 @@ a.service:hover i {
 
 	background-color: #fff; 
 }
+
+.mobile .homepage.section{background: url('../images/static-background.png') no-repeat center center;}
