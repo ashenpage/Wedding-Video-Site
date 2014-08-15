@@ -139,6 +139,7 @@ section.alternate.arrow-down {
 
 section.transparent {
 	background: transparent;
+	min-height: 400px;
 
 }
 
